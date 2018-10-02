@@ -1,6 +1,8 @@
 # rails5session-go
 
-Golang decrypter of Rails 5 sessions.
+[![GoDoc](https://godoc.org/github.com/openware/rails5session-go?status.svg)](https://godoc.org/github.com/openware/rails5session-go)
+
+Go decrypter of Rails 5 sessions.
 
 ## Installation
 
