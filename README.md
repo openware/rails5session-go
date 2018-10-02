@@ -40,10 +40,10 @@ Then verify and decrypt user's cookie, it will return decrypted slice of bytes
 and error if any.
 
 ```go
-	data, err := rails5session.VerifyAndDecryptCookieSession(encryption, cookie)
-    if err != nil {
-        panic(err)
-    }
+data, err := rails5session.VerifyAndDecryptCookieSession(encryption, cookie)
+if err != nil {
+    panic(err)
+}
 ```
 
 Also, take a look at [tests](decrypt_test.go).
